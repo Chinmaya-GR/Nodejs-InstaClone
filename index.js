@@ -94,5 +94,5 @@ app.post("/postdata",upload.single("PostImage"),async(req,res)=>{
 })
 
 app.listen(8000,()=>{
-    console.log("run successfully")
+    console.log("run successfully on 8000")
 })

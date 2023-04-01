@@ -1,6 +1,7 @@
 const mongoose=require("mongoose")
 require("dotenv").config()
 const Db_url=process.env.DB_URL + process.env.DATABASE
+// const Db_url="mongodb+srv://asfarkhan:Qwerty123@cluster0.ytryk2l.mongodb.net/instaclone"
 
 mongoose.connect(Db_url)
 .then(res=>{
